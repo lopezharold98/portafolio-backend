@@ -1,0 +1,15 @@
+{
+    "build": {
+      "env": {
+        "SPRING_PROFILES_ACTIVE": "prod"
+      },
+      "command": "mvn clean package"
+    },
+    "deploy": {
+      "port": "8080"
+    },
+    "web": {
+      "expose": true
+    }
+  }
+  
